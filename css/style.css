@@ -1,0 +1,1193 @@
+body {
+    background-color: #fcfcfc !important;
+}
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrepper {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+
+}
+/********banner**********/
+.banner-item {
+    width: 1000px;
+    height: 200px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+}
+@media(max-width: 1127px){
+    .banner-item{
+        width: 300px;
+        height: 320px;
+     }
+     
+}
+.banner-item-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-item-intro .title{
+    font-size: 100px;
+    color: #fff;
+    padding-top: 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+@media(max-width: 1127px){
+   .banner-item-intro .title{
+        padding-top: 30px;
+     }   
+}
+
+.banner-item-intro .description {
+    padding-top: 18px;
+    font-size: 40px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 20px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.banner-item{
+	animation: btn .2s .3s forwards;
+}
+@keyframes btn{
+	0%{
+		background-color: white;
+		box-shadow: 0 0 5px 10px rgba(255,255,255,.5);
+		transform: scale(2);
+		opacity: 0;
+	}
+	100%{
+		
+		box-shadow: none;
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+/************************/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+     color: white!important;
+}
+
+
+.nav-link a:hover {
+    color: #f26d15 !important;
+}
+
+
+
+.nav-link {
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.logo {
+    display: inline-block;
+    width: 220px;
+    height: 50px;
+    background-image: url(../image/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 100%;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.navbar-nav .mr-auto {
+    margin-left: 400px !important;
+}
+.fb{
+    background-image:url(../image/fb.png);
+}
+.fb:hover{
+	background-image:url(../image/fb-2.png);
+}
+.icon{
+	width: 26px;
+    height: 26px;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+    display: block;
+    background-size: 26px;
+    background-repeat: no-repeat;
+}
+.collapse{
+	float: right;
+}
+/**********hero***********/
+.hero {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.hero-work {
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.hero-title-introduction {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hero-about {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.hero-about-bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-Service-Process {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-service-items {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-Ｍedia-reports {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero-Works-Case {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bg-background-color {
+    background-color: #1e3884;
+}
+
+/***********mask-dark****************/
+.mask-dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mask-dark-2 {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 350px;
+}
+.mask-dark-2:hover h3 {
+    color: #f26d15;
+}
+@media(max-width: 1127px){
+   .mask-dark-2{
+        width: 300px;
+        left: 6px;
+     }   
+}
+@media(max-width: 768px){
+   .mask-dark-2{
+        width: 200px;
+        left: 16px;
+     }   
+}
+@media(max-width: 500px){
+   .mask-dark-2{
+        width: 350px;
+        left: 16px;
+     }   
+}
+@media(max-width: 375px){
+   .mask-dark-2{
+        width: 360px;
+        left: 0px;
+     }   
+}
+/**************about*********************/
+.about{
+	background-image: url(../image/wood1.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.about-item {
+    margin-top: 30px;
+}
+@media(max-width: 1127px){
+   .about-item .col{
+        width: 300px;
+     }   
+}
+@media(max-width: 768px){
+   .about-item .col{
+        width: 100px;
+     }   
+}
+@media(max-width: 500px){
+   .about-item .col{
+        width: 100%;
+        margin-bottom: 30px;
+     }   
+}
+@media(max-width: 768px){
+   .about .title-1{
+        width: 500px!important;
+     }   
+}
+@media(max-width: 500px){
+   .about .title-1{
+        width: 300px!important;
+     }   
+}
+.about-item img {
+    transition: transform .5s;
+}
+@media(max-width: 768px){
+   .about-item img{
+    width: 230px!important;
+    height: 120px!important;
+
+     }   
+}
+.about-item img:hover {
+    transform: scale(1.2);
+}
+
+.about-bg {
+    z-index: 1;
+}
+
+/****************title-introduction********************/
+.title-introduction {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+/***************Service-Process*******************/
+.service-items {
+    background-image: url(../image/平鎮接待中心.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media(max-width: 1127px){
+   .service-items .col{
+        width: 0px;
+     }   
+}
+@media(max-width: 500px){
+   .service-items .col{
+        width: 100%;
+     }   
+}
+@media(max-width: 1127px){
+   .service-items .img1{
+       width: 220px!important;
+       height: 220px!important;
+     }   
+}
+@media(max-width: 1127px){
+   .service-items .img1{
+       width: 150px!important;
+       height: 150px!important;
+     }   
+}
+@media(max-width: 1127px){
+   .service-items .img{
+       width: 210px!important;
+       height: 83px!important;
+     }   
+}
+@media(max-width: 768px){
+   .service-items .img{
+       width: 150px!important;
+       height: 63px!important;
+     }   
+}
+@media(max-width: 500px){
+   .service-items .img{
+       margin: 0 auto;
+       display: block;
+     }   
+}
+@media(max-width: 1127px){
+   .service-items .img2{
+       width: 210px!important;
+       height: 133px!important;
+     }   
+}
+@media(max-width: 768px){
+   .service-items .img2{
+       width: 150px!important;
+       height: 103px!important;
+     }   
+}
+@media(max-width: 500px){
+   .service-items .img2{
+       margin: 0 auto;
+       display: block;
+     }   
+}
+.service-items-item .title {
+    text-align: center;
+    font-size: 28px;
+    color: #f26d15;
+}
+
+.service-items-item .subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.service-items-item .icon{
+    transition: transform 2s;
+}
+
+.service-items-item .icon:hover {
+    transform: rotateY(360deg);
+}
+
+/***************Service-Process*******************/
+.Service-Process {
+    background-image: url(../image/平鎮接待中心.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media(max-width: 1127px){
+   .Service-Process .col{
+        width: 0px;
+     }   
+}
+@media(max-width: 500px){
+   .Service-Process .col{
+        width: 100%;
+     }   
+}
+@media(max-width: 768px){
+   .Service-Process-item .img{
+        width: 200px!important;
+        height: 200px!important;
+     }   
+}
+.Service-Process-item .title {
+    text-align: center;
+    font-size: 28px;
+    color: #f26d15;
+}
+
+.Service-Process-item .subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+
+.Service-Process-item .icon{
+    transition: transform 2s;
+}
+
+.Service-Process-item .icon:hover {
+    transform: rotateY(360deg);
+}
+
+/*****************************/
+.Works-Case-item .btn {
+    border: 3px solid #fff;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-top: 0px;
+    color: #fff;
+    transition: transform 2s;
+}
+
+.Works-Case-item .btn:hover {
+    border: 3px solid #f26d15;
+    color: #f26d15;
+}
+
+.Works-Case-item h3 {
+    color: #fff;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 160px;
+}
+@media(max-width: 1127px){
+   .Works-Case-item h3{
+        padding-top: 130px;
+     }   
+}
+@media(max-width: 768px){
+   .Works-Case-item h3{
+        font-size: 20px;
+        padding-top: 100px;
+     }   
+}
+@media(max-width: 500px){
+   .Works-Case-item h3{
+        padding-top: 150px;
+        font-size: 40px;
+     }   
+}
+@media(max-width: 320px){
+   .Works-Case-item h3{
+        font-size: 30px;
+        margin-right: 70px;
+     }   
+}
+@media(max-width: 1127px){
+   .Works-Case-item img{
+        width: 300px!important;
+        height: 300px!important;
+     }   
+}
+@media(max-width: 768px){
+   .Works-Case-item img{
+        width: 200px!important;
+        height: 200px!important;
+     }   
+}
+@media(max-width: 500px){
+   .Works-Case-item img{
+        width: 350px!important;
+        height: 350px!important;
+     }   
+}
+/***********section-intro*************/
+.section-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-intro .title {
+    font-size: 44px;
+    color: #000;
+
+    font-weight: 600;
+}
+
+.section-intro .description {
+    padding-top: 13px;
+    font-size: 30px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 20px;
+}
+
+.slogan .line {
+    width: 100%;
+    height: 2px;
+    background-color: #1e3884;
+    margin-top: 20px;
+}
+
+/************************/
+.socail-icon .btn {
+    border: 3px solid #fff;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    transition: transform 2s;
+}
+
+.socail-icon .btn:hover {
+    color: #fff;
+}
+
+.card-body {
+    color: #7c7c7c;
+}
+
+.card-body:hover {
+    color: #fff;
+    background-color: #1e3884;
+}
+
+/*******************************************/
+.contact .title {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}    
+@media(max-width: 500px) {
+    .contact .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.contact .description {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ffb93f;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .contact .description {
+        padding-bottom: 30px;
+    }
+}
+
+.hero-Contact {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.contact {
+    background-image: url('../images/工業風.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-item {
+    max-width: 1000px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/**************banner start *****************/
+.banner {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.hot-banner {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+
+
+.banner-item-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-item-intro .title {
+    font-size: 100px;
+    color: #fff;
+    padding-top: 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 1127px) {
+    .banner-item-intro .title {
+        padding-top: 30px;
+    }
+
+}
+
+.banner-item-intro .description {
+    padding-top: 18px;
+    font-size: 40px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 20px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+}
+
+/**********mask***********/
+.component-4:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.project-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.component-5 {
+    height: 540px;
+    background-image: url(../image/最新作品01.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .component-5 {
+        height: 540px;
+    }
+}
+
+.component-6 {
+    height: 540px;
+    background-image: url(../image/新北萬里蟹.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .component-6 {
+        height: 540px;
+    }
+}
+
+.component-7 {
+    height: 540px;
+    background-image: url(../image/Heineken.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media(max-width: 768px) {
+    .component-7 {
+        height: 540px;
+    }
+}
+
+.component-8 {
+    height: 540px;
+    background-image: url(../image/2018JCB遊樂祭.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .component-8 {
+        height: 540px;
+    }
+}
+
+.component-9 {
+    height: 540px;
+    background-image: url(../image/暉騰建設形象館.png);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .component-9 {
+        height: 540px;
+    }
+}
+
+.component-10 {
+    height: 540px;
+    background-image: url(../image/DARPHIN療癒小粉紅美肌樂園.jpeg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media(max-width: 768px) {
+    .component-10 {
+        height: 540px;
+    }
+}
+
+.component-11 {
+    height: 540px;
+    background-image: url(../image/GUINNESS~貨櫃屋市集.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width: 768px) {
+    .component-11 {
+        height: 540px;
+    }
+}
+
+.component-12 {
+    height: 540px;
+    background-image: url(../image/松菸.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+@media(max-width: 768px) {
+    .component-12 {
+        height: 540px;
+    }
+}
+
+.media__body {
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    color: white;
+    left: 34px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 3.75em 3em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    width: 300px;
+}
+
+.media__body:hover {
+    opacity: 1;
+}
+
+@media(max-width: 768px) {
+    .media__body {
+        opacity: 1;
+    }
+}
+
+.media__body:hover {
+    border-radius: 50%;
+}
+
+.media__body:hover .Works-Case-item img {
+    border-radius: 50%;
+}
+
+.media__body h2 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.media__body p {
+    margin-bottom: 1.5em;
+    font-size: 17px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+@media(max-width: 768px) {
+    .media__body h2 {
+        font-size: 30px;
+    }
+}
+
+.regular .slick-next {
+    z-index: 100;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #000 !important;
+}
+
+.regular .slick-prev {
+    z-index: 100;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #000 !important;
+}
+
+.regular .slick-prev:before,
+.regular .slick-next:before {
+    font-size: 40px;
+}
+
+/********new-works start************/
+.new-works {
+    margin: 0;
+    background-image: url(../image/625993-PNZP34-678.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box-container {
+    max-width: 1280px;
+    height: 350px;
+
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 10px;
+    display: inline-block;
+    transition: transform 5s;
+}
+
+.box-container .box .ingBox {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+.box-container .box .ingBox img {
+    width: 100%;
+    transition: transform 2s;
+}
+
+.box-container .box:hover .ingBox {
+    border-radius: 25px;
+}
+
+.box-container .box:hover .ingBox img {
+    transform: scale(1.2);
+}
+
+.box-container .box .details {
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.box-container .box:hover .details {
+    transform: scaleY(1);
+}
+
+.box-container .box .details .contant {
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.box-container .box .details .contant h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.box-container .box .details .contant .btn {
+    border: 3px solid #fff;
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    color: #fff;
+    transition: transform 2s;
+}
+
+.box-container .box .details .contant .btn:hover {
+    color: #ff0;
+    border: 3px solid #ff0;
+    transform: scale(1.2);
+}
+
+/* owl-carousel */
+.owl-theme .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .owl-theme .owl-dots {
+        margin-bottom: 5px;
+    }
+}
+
+.owl-theme .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fefefe;
+    outline: none;
+    margin: 0 4px;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+    background-color: #000;
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+    top: calc((100% - 106px) / 2 - 20px);
+    width: 100%;
+    
+}
+
+.owl-theme .owl-nav button.owl-prev,
+.owl-theme .owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d5a26f;
+    outline: none;
+    font-size: 24px;
+    color: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+    position: absolute;
+    opacity: 1;
+    transition: all 0.3s
+    z-index: 200;
+}
+
+.owl-theme:hover .owl-nav button.owl-prev,
+.owl-theme:hover .owl-nav button.owl-next {
+    opacity: 1;
+}
+
+.owl-theme .owl-nav button.owl-prev {
+    left: -20px;
+}
+
+@media (max-width: 768px) {
+    .owl-theme .owl-nav button.owl-prev {
+        left: 5px;
+        opacity: 1;
+    }
+}
+
+.owl-theme .owl-nav button.owl-next {
+    right: -20px;
+}
+
+@media (max-width: 768px) {
+    .owl-theme .owl-nav button.owl-next {
+        right: 5px;
+        opacity: 1;
+    }
+}
+
+
+/***********youterder*************/
+.youtubecontent {
+    position: relative;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtubecontent {
+    padding-bottom: 56.25%;
+}
+
+.youtubecontent iframe,
+.youtubecontent object,
+.youtubecontent embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/***********footer*************/
+.Contactn-backbground {
+    background-image: url(../image/新莊副都心旁-貨櫃屋茶飲.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact-product {
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: -20px;
+}
+
+@media(max-width: 768px) {
+    .contact-product {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 576px) {
+    .about-item .description:before {
+        margin-bottom: 40px;
+    }
+}
+
+.contact .map-container {
+    width: 100%;
+    padding-top: 30%;
+}
+
+.contact .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media(max-width: 768px) {
+    .contact .map-container {
+        padding-top: 100%;
+    }
+}
+
+.contact .title {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+/******************/
+.contact-item {
+    padding: 40PX;
+}
+
+.contact-item h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact-item h6 {
+    margin-top: 30px;
+}
+
+.contact .map-container {
+    width: 100%;
+    padding-top: 30%;
+    height: 300px;
+}
+
+.contact .map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contact .line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/******************/
+.contact .description {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #ffb93f;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 768px) {
+    .contact .description {
+        padding-bottom: 30px;
+    }
+}
+
+.hero-Contact {
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.contact {
+    background-image: url(../image/新莊副都心旁-貨櫃屋茶飲.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .description {
+    text-align: center;
+}
+@media(max-width: 768px) {
+    .contact .description {
+        margin-bottom: -20px!important;
+    }
+}
+.contact .brand {
+    width: 300px;
+    height: 228px;
+    display: block;
+    background-image: url('../image/logo02.png');
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.contact .mask-dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.btn btn-primary{}
+/***********footer*************/
+.copyright {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    line-height: 10px;
+}
+@media(max-width: 1127px) {
+    .copyright p{
+        line-height: 22px!important;
+        margin-bottom: 0px!important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
